@@ -1,0 +1,29 @@
+Here’s an in-depth explanation of the “7 R” strategies for application modernization, with a practical example for each approach:
+
+Strategy	Explanation	Example
+Retire	Decommission applications that are no longer needed or provide no business value.	An old inventory tracking tool is no longer used after a company merger, so it’s shut down.
+Replace	Switch to a new solution (often SaaS) instead of updating the current application.	An in-house payroll system is replaced by the cloud-based ADP payroll SaaS platform.
+Rebuild	Fully re-write the application from scratch using modern technologies and architectures.	A legacy on-prem CRM built in the 90s is replaced by a new custom CRM web app built in React and AWS.
+Rehost	“Lift-and-shift”—move the application as-is to the cloud, with minimal or no changes.	A Windows Server–based document management system is moved directly to AWS EC2 VMs.
+Replatform	Move to the cloud with minor optimizations or upgrades, but without changing core architecture.	During migration, a company moves its database from an on-prem Oracle server to Amazon RDS,
+updating drivers and OS but leaving business logic untouched.
+Refactor	Modify application code to better utilize cloud-native features, without redesigning architecture.	A monolithic Java app is split into multiple microservices to run efficiently on Kubernetes and scale.
+Rearchitect	Redesign application architecture to meet new requirements for scalability, performance, etc.	Migrating from a monolithic e-commerce platform to a distributed, event-driven microservices model.
+Summary of the “7 R” Strategies with Examples:
+
+Retire: Shut down a scheduling app that’s redundant due to another system.
+
+Replace: Move from a custom budgeting tool to Oracle NetSuite.
+
+Rebuild: Re-create your on-premises ERP as a serverless app in AWS Lambda.
+
+Rehost: Move a legacy .NET website from on-prem servers to Azure VMs unchanged.
+
+Replatform: Shift a Linux web app to Google Cloud and update its middleware for managed scaling.
+
+Refactor: Convert a tightly coupled PHP website into modular Node.js microservices for easier maintenance.
+
+Rearchitect: Change an insurance claims platform from a mainframe to a scalable, API-driven cloud service.
+
+These strategies offer flexible, cost-effective ways to modernize software portfolios, ensuring each system gets the level of investment that matches its business value and technical needs.
+
